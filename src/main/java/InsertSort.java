@@ -1,4 +1,4 @@
-public class InsertSort extends Strategy{
+public class InsertSort extends Strategy {
 
     public int[] sort(int[] ints) {
         for (int left = 0; left < ints.length; left++) {

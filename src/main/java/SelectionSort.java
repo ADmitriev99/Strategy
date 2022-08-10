@@ -1,4 +1,5 @@
 public class SelectionSort extends Strategy {
+
     public int[] sort(int[] ints) {
         for (int i = 0; i < ints.length; i++) {
             int position = i;

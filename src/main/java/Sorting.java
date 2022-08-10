@@ -1,7 +1,8 @@
 public class Sorting {
 
     private Strategy strategy;
-    public Sorting(){
+
+    public Sorting() {
     }
 
     public void setStrategy(Strategy strategy) {
