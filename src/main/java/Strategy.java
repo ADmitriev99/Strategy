@@ -1,4 +1,6 @@
-public abstract class Strategy {
+public interface Strategy {
 
-    abstract int[] sort(int[] ints);
+    int[] sort();
+
+    void create(int quantity);
 }
